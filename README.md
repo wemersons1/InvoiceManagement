@@ -13,7 +13,7 @@ Este software é executado com a ajuda do [Laravel Sail](https://laravel.com/doc
 alias para Laravel Sail, ele pode ser encontrado neste artigo [Configurando um alias de shell](https://laravel.com/docs/10.x/sail#configurando-a-shell-alias).
 
 Dentro da pasta raiz do projeto você deve executar `composer install` seguido de `sail up`. Esses dois comandos irão
-instale todas as dependências e crie os contêineres docker. Você deve criar uma cópia do arquivo .env.example dentro
+instalar todas as dependências e criar os contêineres docker. Você deve criar uma cópia do arquivo .env.example dentro
 a pasta raiz chamada apenas .env.
 Como passo final você deve executar 
 
