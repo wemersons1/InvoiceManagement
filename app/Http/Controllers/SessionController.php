@@ -18,7 +18,9 @@ class SessionController extends Controller
             ], 401);
         }
      
-        return $user->createToken($request->email)->plainTextToken;
+        return response()->json([
+            "token" => $user->createToken($request->email)->plainTextToken
+        ]);
     }
 
     public function destroy(Request $request) {     
